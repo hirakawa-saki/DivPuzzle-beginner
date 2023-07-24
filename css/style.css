@@ -1,0 +1,43 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  width: 100%;
+}
+
+.container {
+  width: 400px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+/* header */
+#header {
+  background-color: #ff0000;
+  width: 100%;
+  height: 100px;
+}
+
+/* main */
+.left-box {
+  background-color: #00ff1e;
+  width: 150px;
+  height: 250px;
+  float: left;
+}
+
+.right-box {
+  background-color: #30f;
+  width: 250px;
+  height: 250px;
+  float: right;
+}
+
+/* footer */
+#footer {
+  background-color: #ffe600;
+  height: 100px;
+}
