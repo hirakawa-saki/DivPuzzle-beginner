@@ -15,7 +15,7 @@ body {
 }
 
 /* header */
-#header {
+.header {
   background-color: #ff0000;
   width: 100%;
   height: 100px;
@@ -37,7 +37,7 @@ body {
 }
 
 /* footer */
-#footer {
+.footer {
   background-color: #ffe600;
   height: 100px;
 }
